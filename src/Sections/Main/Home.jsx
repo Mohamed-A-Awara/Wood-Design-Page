@@ -2,7 +2,8 @@ import { } from 'react'
 // Style
 import './Home.style.css'
 import { GoArrowDown } from "react-icons/go";
-
+import homePartOne from '../../assets/Images/homePartOne.png'
+import homePartTwo from '../../assets/Images/homePartTwo.png'
 function Home() {
     return (
         <>
@@ -21,7 +22,7 @@ function Home() {
 
                             <div className="partOneImg">
                                 <img
-                                    src="../../../public/Images/homePartOne.png"
+                                    src={homePartOne}
                                     alt="image Part One"
                                     className='partOneImg-box'
                                 />
@@ -53,7 +54,7 @@ function Home() {
 
                             <div className="partTwoImgBox">
                                 <img
-                                    src="../../../public/Images/homePartTwo.png"
+                                    src={homePartTwo}
                                     alt="Image Part Two"
                                     className='partTwoImg'
                                 />

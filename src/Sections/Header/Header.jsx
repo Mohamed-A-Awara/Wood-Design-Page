@@ -4,7 +4,7 @@ import { Container, Form, Nav, Navbar } from 'react-bootstrap'
 
 // Styles
 import './Header.style.css'
-
+import logo from '../../assets/Images/Logo.png'
 
 function Header() {
     return (
@@ -13,7 +13,7 @@ function Header() {
                 <Container fluid>
                     <Navbar.Brand href="#">
                         <img
-                            src="../../../public/Images/Logo.png"
+                            src={logo}
                             className='header-logo'
                             alt="logo"
                             

@@ -3,6 +3,9 @@ import { } from 'react'
 // Styles
 import './Service.style.css'
 import { Row, Col } from 'react-bootstrap'
+import img1 from '../../assets/Images/Lightingdesignicon.png'
+import img2 from '../../assets/Images/Interiordesignicon.png'
+import img3 from '../../assets/Images/Outdoordesignicon.png'
 
 
 function Service() {
@@ -21,7 +24,7 @@ function Service() {
                         <Col lg='4' md='6' sm='12' className='mb-3'>
                             <div className="serElement">
                                 <div className="serIcon">
-                                    <img src="../../../public/Images/Lighting design icon.png" alt="" />
+                                    <img src={img1} alt="" />
                                 </div>
                                 <div className="serElementContent">
                                     <h4>Lighting Design</h4>
@@ -33,7 +36,7 @@ function Service() {
                         <Col lg='4' md='6' sm='12' className='mb-3'>
                             <div className="serElement">
                                 <div className="serIcon">
-                                    <img src="../../../public/Images/Interior design icon.png" alt="" />
+                                    <img src={img2} alt="" />
                                 </div>
                                 <div className="serElementContent">
                                     <h4>Interior Design</h4>
@@ -44,7 +47,7 @@ function Service() {
                         <Col lg='4' md='6' sm='12' className='mb-3'>
                             <div className="serElement">
                                 <div className="serIcon">
-                                    <img src="../../../public/Images/Outdoor design icon.png" alt="" />
+                                    <img src={img3} alt="" />
                                 </div>
                                 <div className="serElementContent">
                                     <h4>Outdoor Design</h4>
