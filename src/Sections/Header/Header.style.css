@@ -1,0 +1,41 @@
+.navParent{
+    height: 80px !important;
+}
+.header-logo{
+    /* Edit */
+    margin-left: 80px;
+}
+.headerLinks{
+    font-size: 1.3rem ;
+    font-weight: 600;
+}
+.homeLink{
+    font-weight: 700;
+}
+.btnSign{
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    transition: 0.5s ease-in-out;
+    /* Edit */
+    margin-right: 80px;
+}
+.btnSign:hover{
+    background-color: transparent;
+    color: black;
+}
+
+
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+    .homeLink{
+        margin-left: 0 !important;
+    }
+    .btnSign{
+        margin-right: 0 !important;
+    }
+}

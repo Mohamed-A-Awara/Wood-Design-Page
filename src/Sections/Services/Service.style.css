@@ -1,0 +1,60 @@
+.serviceParent{
+    margin: 20px auto !important;
+    height: 50vh ;
+}
+.serviceTitle{
+    padding: 20px;
+    width: 100%;
+    /* background-color: blueviolet; */
+
+    display: flex;
+    align-items: center;
+}
+.drawLine{
+    width: 150px;
+    height: 3px;
+    background-color: black;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.serviceTitle h2{
+    font-size: 3rem;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.serviceContent{
+    margin-top: 50px;
+    padding: 20px;
+    /* background-color: aqua; */
+
+}
+.serElement{
+    display: flex;
+}
+.serIcon{
+    margin-right: 20px;
+}
+.serElementContent h4{
+    font-size: 1.8rem ;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.serElementContent p {
+    font-size: 1.1rem;
+    width: 85%;
+    text-align: justify;
+}
+
+
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+    .drawLine{
+        width: 50px;
+    }
+    .serviceTitle h2{
+        font-size: 2rem;
+    }
+}
