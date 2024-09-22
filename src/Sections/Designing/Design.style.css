@@ -1,0 +1,69 @@
+.designParent{
+    height: 80vh;
+    width: 100%;
+    overflow: hidden;
+    /* background-color: blueviolet; */
+}
+.designContent h2{
+    font-size: 3.2rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.designContent .designContent-text{
+    width: 70%;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin: 50px 0;
+    text-align: justify;
+}
+.designContent-living{
+    width: 100%;
+    /* background-color: aqua; */
+    margin-bottom: 20px;
+    padding: 20px 0;
+    border-bottom: 2px solid gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.designContent-living p {
+    font-size: 1.5rem ;
+    margin-right: 20px;
+}
+.designContent button{
+    width: 230px;
+    height: 65px;
+    background-color: black;
+    color: white;
+    font-size: 1.3rem ;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    transition: 0.5s ease-in-out;
+
+}
+.designContent button:hover{
+    background-color: transparent;
+    color: black;
+}
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+    .designParent{
+        height: auto;
+        padding-top: 50px;
+    }
+    .designContent h2 {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .designContent-text {
+        width: 90% !important;
+        text-align: center !important;
+    }
+    .designContent button{
+        display: block;
+        margin: 20px auto !important;
+    }
+}

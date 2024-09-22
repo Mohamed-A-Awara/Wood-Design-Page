@@ -7,21 +7,26 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './Sections/Header/Header';
 import Home from './Sections/Main/Home';
 import Service from './Sections/Services/Service';
+import Design from './Sections/Designing/Design';
 
 function App() {
   return (
     <>
       {/* Start Header */}
-        <Header/>
+      <Header />
       {/* End Header */}
 
       {/* Start Home  */}
-      <Home/>
+      <Home />
       {/* End Home  */}
 
       {/* Start Service */}
-      <Service/>
+      <Service />
       {/* End Service */}
+
+      {/* Start Design */}
+      <Design />
+      {/* End Design */}
     </>
   )
 }
